@@ -1,0 +1,140 @@
+﻿body {
+    background-image: url(../Images/fundo.png);
+}
+
+/* MENU MAIN */
+
+nav#menu {
+    display: block;
+}
+
+    nav#menu ul {
+        list-style: none;
+        text-transform: uppercase;
+        margin-top: -40px;
+        margin-left: 40px;
+    }
+
+    nav#menu li {
+        display: inline-block;
+        background-color: black;
+        padding: 10px;
+        margin: 2px;
+        transition: background-color 1s;
+        font-weight: bold;
+        position: center;
+    }
+
+        nav#menu li:hover {
+            background-color: white;
+            color: black;
+        }
+
+    nav#menu h1 {
+        display: none;
+    }
+
+    nav#menu a {
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        nav#menu a:hover {
+            color: black;
+        }
+
+/* HEADER */
+
+img#logo {
+    width: 345px;
+    margin: 40px auto 10px 40px;
+}
+
+/* FOOTER */
+
+header#cabecalho h1 {
+    color: black;
+    font-family: 'Arial Rounded MT';
+    padding-left: 80px;
+    margin-top: -20px;
+    font-size: 28pt;
+    text-shadow: 0.05em 0.05em 0em White;
+}
+
+header#cabecalho h2 {
+    color: black;
+    font-family: 'Arial Rounded MT';
+    text-align: right;
+    padding-right: 60px;
+    margin-top: -30px;
+    font-size: 20.5pt;
+    text-shadow: 0.05em 0.05em 0em White;
+}
+
+/* SECTION */
+
+section#corpo {
+    display: block;
+    background-image: url(../Images/fundo2.png);
+    box-shadow: black 0px 0px 10px;
+    width: 93%;
+    margin: -10px auto 10px auto;
+}
+
+    section#corpo h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15pt;
+        color: black;
+        margin: 20px 20px 20px 25px;
+        padding: 10px;
+    }
+
+div#tv {
+    background: url("../Images/tv.png") no-repeat;
+    width: 900px;
+    height: 580px;
+    margin: 3% auto 5% auto;
+}
+
+video#filme {
+    display: block;
+    position: relative;
+    left: 9%;
+    top: 13%;
+    width: 50%;
+}
+
+img#home {
+    width: 100%;
+}
+
+
+/* FOOTER */
+footer#rodape {
+    clear: both;
+    display: block;
+    background-image: url(../Images/fundo2.png);
+    box-shadow: black 0px 0px 10px;
+    width: 93%;
+    margin: -10px auto 10px auto;
+    clear: both;
+}
+
+    footer#rodape p {
+        font-family: 'Arial Rounded MT';
+        text-align: center;
+        font-size: 15pt;
+        padding: 5px 5px 5px 5px;
+    }
+
+    footer#rodape .linksrodape {
+        color: red;
+        transition: background-color 1s;
+        text-decoration: none;
+    }
+
+    footer#rodape .linksrodape:hover {
+        color: blue;
+        text-decoration: none;
+    }

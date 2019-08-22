@@ -1,0 +1,131 @@
+﻿div#corpo {
+    display: block;
+    background-image: url(../Images/fundo2.png);
+    box-shadow: black 0px 0px 10px;
+    width: 93%;
+    margin: -10px auto 10px auto;
+}
+
+    div#corpo h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15pt;
+        color: black;
+        margin: 20px 20px 20px 25px;
+        padding: 10px;
+    }
+
+    img#contact{
+        position: absolute;
+        width: 20%;
+        left: 10%;
+        top: 60%;
+    }
+
+/*TEXT BOX*/
+.auto-style1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    width: 31%;
+    height: 8px;
+    padding: 10px;
+    margin: 1% auto 1% 33%;
+}
+
+.auto-style2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    width: 31%;
+    height: 8px;
+    padding: 10px;
+    margin: 1% auto 1% 33%;
+}
+
+.auto-style3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    width: 31%;
+    height: 8px;
+    padding: 10px;
+    margin: 1% auto 1% 33%;
+}
+
+.auto-style4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    width: 31%;
+    height: 8px;
+    padding: 10px;
+    margin: 1% auto 1% 33%;
+}
+
+.auto-style5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    width: 31%;
+    height: 100px;
+    padding: 10px;
+    margin: 1% auto 1% 33%;
+}
+
+/*LABEL*/
+.auto-style7 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    margin: 1% auto 1% 46%;
+}
+
+.auto-style8 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    margin: 1% auto 1% 46%;
+}
+
+.auto-style9 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    margin: 1% auto 1% 47.3%;
+}
+
+.auto-style10 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    margin: 1% auto 1% 47.3%;
+}
+
+.auto-style11 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    margin: 1% auto 1% 46.6%;
+}
+
+/* BOTAO ENVIAR*/
+.auto-style6 {
+    Height: 50px;
+    Width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    margin: 1% auto 1% 43%;
+    color: white;
+    background-color: black;
+}
